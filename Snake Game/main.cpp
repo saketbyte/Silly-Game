@@ -56,14 +56,14 @@ void Draw()
 
 	
 	
-	for(int i = 0;i<width+2;i++)
+	for(int i = 0;i<width;i++)
 	cout<<"##";
 	
 	cout<<endl;
 	
 	for(int i =0;i<height;i++)
 	{
-		for(int j = 0;j<width+2;j++)
+		for(int j = 0;j<width;j++)
 		{
 			
 			if(j==0||j==width-1)
@@ -96,7 +96,7 @@ void Draw()
 	}
 	
 	
-	for(int i = 0;i<width+2;i++)
+	for(int i = 0;i<width;i++)
 	cout<<"##";
 	
 	cout<<endl;
@@ -225,7 +225,7 @@ int main()
 		Draw();
 		Input();
 		Logic();
-		//Sleep(20);
+		Sleep(10);
 				
 	}
 
